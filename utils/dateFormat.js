@@ -75,7 +75,7 @@ module.exports = (
     hour = 12;
   }
   else if (dateObj.getHours() > 12) {
-    hour = (dateObj.getHours() / 2);
+    hour = (dateObj.getHours() - 12);
   } else {
     hour = dateObj.getHours();
   }
